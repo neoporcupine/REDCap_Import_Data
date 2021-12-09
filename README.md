@@ -95,7 +95,9 @@ php import_data.php
 
 ## NOTE
 
-[1] It is important to review the data within REDCap to ensure the upload was successful. Please carefully examine records containing text with UNICODE characters and large note fields that might have new line characters inserted. While I have not yet experienced issues with these sorts of data in this script, UNICODE and new line seem to be the culprits for numerous other procedures.
+[1] Create a test data file that only has the first couple records. Edit the script to point at this test file first to ensure the process functions properly before editing the script to point at your full data file.
+
+[2] It is important to review the data within REDCap to ensure the upload was successful. Please carefully examine records containing text with UNICODE characters and large note fields that might have new line characters inserted. While I have not yet experienced issues with these sorts of data in this script, UNICODE and new line seem to be the culprits for numerous other procedures.
 
 ## Contributing
 
